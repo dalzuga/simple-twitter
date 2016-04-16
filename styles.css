@@ -1,0 +1,13 @@
+body
+{
+  width: 992px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: #811922;
+}
