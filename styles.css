@@ -16,14 +16,14 @@ nav {
         padding: 30px 30px 30px 30px; /* clockwise from the top */
 }
 
-section {
+header {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-top: 10px;
 }
 
-section>div {
+header>div {
         padding: 10px 0px 10px 0px;
 }
 
@@ -39,9 +39,8 @@ div[data-name="loginlength"] {
 }
 
 .container {
-        display:flex;
+        display: flex;
         flex-direction: row;
-        justify-content: space-around;
         padding: 20px 0px 0px 0px;
 }
 
