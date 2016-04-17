@@ -51,12 +51,12 @@ article, aside {
 }
 
 article {
-        width: calc(70% - 10px);
+        width: calc(70% - 5px);
         padding-right: 10px;
 }
 
 aside {
-        width: 30%;
+        width: calc(30% - 5px);
 }
 
 article>div, aside>div {
