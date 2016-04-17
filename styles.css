@@ -11,6 +11,7 @@ nav
   justify-content: space-around;
   background-color: #811922;
   padding: 10px 10px 10px 10px;
+  /* padding is clockwise from the top */
 }
 
 section
@@ -19,6 +20,11 @@ section
   flex-direction: column;
   text-align: center;
   padding-top: 10px;
+}
+
+section>div
+{
+  padding: 5px 0px 5px 0px;  
 }
 
 div[data-index="1"]
