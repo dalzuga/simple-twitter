@@ -5,9 +5,28 @@ body
   color: white;
 }
 
-.menu
+nav
 {
   display: flex;
   justify-content: space-around;
   background-color: #811922;
+}
+
+section
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+div[data-index="1"]
+{
+  background-color: #3877C0;
+}
+
+
+div[data-index="2"]
+{
+  background-color: #B8E986;
+  color: #104079;
 }
