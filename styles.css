@@ -4,6 +4,8 @@ body
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: black;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 nav
@@ -13,8 +15,7 @@ nav
   color: white;
   background: #811922;
   background: linear-gradient(#811922,#A90E25);
-  padding: 30px 30px 30px 30px;
-  /* padding is clockwise from the top */
+  padding: 30px 30px 30px 30px; /* clockwise from the top */
 }
 
 section
@@ -27,7 +28,7 @@ section
 
 section>div
 {
-  padding: 5px 0px 5px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 div[data-name="loginrot13"]
@@ -41,4 +42,14 @@ div[data-name="loginlength"]
 {
   background-color: #B8E986;
   color: #104079;
+}
+
+article
+{
+  display: flex;
+}
+
+aside
+{
+  display: flex;
 }
