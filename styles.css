@@ -46,6 +46,7 @@ div[data-name="loginlength"] {
 
 article {
         display: flex;
+        flex-wrap: wrap;
         width: 70%;
         padding: 0px 10px 0px 0px;
 }
@@ -58,10 +59,12 @@ article>div {
 
 aside {
         display: flex;
+        flex-wrap: wrap;
         background: #E3E3E3;
         width: 30%;
 }
 
 aside>div {
         padding: 10px 10px 10px 10px;
+        width: 100%;
 }
