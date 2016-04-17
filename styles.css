@@ -41,16 +41,28 @@ div[data-name="loginlength"] {
 .container {
         display:flex;
         flex-direction: row;
-        padding: 0px 0px 0px 0px;
+        justify-content: space-around;
+        padding: 20px 0px 0px 0px;
 }
 
 article {
         display: flex;
-        background: #F7F7F7;
         width: 70%;
+        padding: 0px 10px 0px 0px;
+}
+
+article>div {
+        padding: 10px 10px 10px 10px;
+        background: #F7F7F7;
+        width: 100%;
 }
 
 aside {
         display: flex;
         background: #E3E3E3;
+        width: 30%;
+}
+
+aside>div {
+        padding: 10px 10px 10px 10px;
 }
