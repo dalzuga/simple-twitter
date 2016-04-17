@@ -1,10 +1,10 @@
 body {
+        display: flex;
+        flex-flow: row wrap;
         width: 992px;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: black;
         margin: auto;
-        display: flex;
-        flex-direction: column;
 }
 
 nav {
@@ -13,6 +13,7 @@ nav {
         color: white;
         background: #811922;
         background: linear-gradient(#811922,#A90E25);
+        width: 100%;
         padding: 30px 30px 30px 30px; /* clockwise from the top */
 }
 
@@ -21,6 +22,7 @@ header {
         flex-direction: column;
         text-align: center;
         padding-top: 10px;
+        width: 100%;
 }
 
 header>div {
@@ -38,33 +40,30 @@ div[data-name="loginlength"] {
         color: #104079;
 }
 
-.container {
+article, aside {
         display: flex;
-        flex-direction: row;
-        padding: 20px 0px 0px 0px;
+        flex-direction: column;
+        padding-top: 10px;
 }
 
 article {
-        display: flex;
-        flex-wrap: wrap;
-        width: 70%;
-        padding: 0px 10px 0px 0px;
-}
-
-article>div {
-        padding: 10px 10px 10px 10px;
-        background: #F7F7F7;
-        width: 100%;
+        width: calc(70% - 10px);
+        padding-right: 10px;
 }
 
 aside {
-        display: flex;
-        flex-wrap: wrap;
-        background: #E3E3E3;
         width: 30%;
 }
 
-aside>div {
+article>div, aside>div {
+        width: calc(100% - 20px);
         padding: 10px 10px 10px 10px;
-        width: 100%;
+}
+
+article>div {
+        background: #F7F7F7;
+}
+
+aside>div {
+        background: #E3E3E3;
 }
