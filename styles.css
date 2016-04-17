@@ -2,15 +2,18 @@ body
 {
   width: 992px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: white;
+  color: black;
+  margin: auto;
 }
 
 nav
 {
   display: flex;
   justify-content: space-around;
-  background-color: #811922;
-  padding: 10px 10px 10px 10px;
+  color: white;
+  background: #811922;
+  background: linear-gradient(#811922,#A90E25);
+  padding: 30px 30px 30px 30px;
   /* padding is clockwise from the top */
 }
 
@@ -24,16 +27,17 @@ section
 
 section>div
 {
-  padding: 5px 0px 5px 0px;  
+  padding: 5px 0px 5px 0px;
 }
 
-div[data-index="1"]
+div[data-name="loginrot13"]
 {
   background-color: #3877C0;
+  color: white;
 }
 
 
-div[data-index="2"]
+div[data-name="loginlength"]
 {
   background-color: #B8E986;
   color: #104079;
