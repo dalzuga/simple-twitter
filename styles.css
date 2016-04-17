@@ -67,3 +67,17 @@ article>div {
 aside>div {
         background: #E3E3E3;
 }
+
+footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+}
+
+footer>div {
+        color: white;
+        background: black;
+        padding: 30px 0px 30px 0px;
+}
