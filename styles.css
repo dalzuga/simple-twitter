@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre {
 
 body {
         display: flex;
-        flex-flow: row wrap;
+        flex-wrap: wrap;
         width: 992px;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: black;
@@ -22,8 +22,6 @@ nav {
 }
 
 header {
-        display: flex;
-        flex-direction: column;
         text-align: center;
         padding-top: 10px;
         width: 100%;
@@ -50,7 +48,7 @@ article, aside {
 
 article {
         width: calc(70% - 5px);
-        margin-right: 5px;        
+        margin-right: 5px;
 }
 
 aside {
@@ -58,12 +56,7 @@ aside {
         margin-left: 5px;
 }
 
-article, aside {
-        margin-bottom: 10px;
-}
-
 article>div, aside>div {
-        width: calc(100% - 20px);
         padding: 10px 10px 10px 10px;
         margin-bottom: 10px;
 }
@@ -77,8 +70,6 @@ aside>div {
 }
 
 footer {
-        display: flex;
-        flex-direction: column;
         text-align: center;
         width: 100%;
 }
