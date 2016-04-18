@@ -45,18 +45,21 @@ div[data-name="loginlength"] {
 }
 
 article, aside {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
+        margin-top: 10px;
 }
 
 article {
         width: calc(70% - 5px);
-        padding-right: 10px;
+        margin-right: 5px;        
 }
 
 aside {
         width: calc(30% - 5px);
+        margin-left: 5px;
+}
+
+article, aside {
+        margin-bottom: 10px;
 }
 
 article>div, aside>div {
