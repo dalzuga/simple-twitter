@@ -3,8 +3,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre {
 }
 
 body {
-        display: flex;
-        flex-wrap: wrap;
+        /*display: flex;
+        flex-wrap: wrap;*/
         width: 992px;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: black;
@@ -18,7 +18,7 @@ nav {
         background: #811922;
         background: linear-gradient(#811922,#A90E25);
         width: 100%;
-        padding: 30px 30px 30px 30px; /* clockwise from the top */
+        padding: 30px 0px 30px 0px; /* clockwise from the top */
 }
 
 header {
@@ -43,7 +43,8 @@ div[data-name="loginlength"] {
 }
 
 article, aside {
-        margin-top: 10px;
+        display: block;
+        float: left;
 }
 
 article {
@@ -54,11 +55,12 @@ article {
 aside {
         width: calc(30% - 5px);
         margin-left: 5px;
+        height: 100%;
 }
 
 article>div, aside>div {
+        margin-top: 10px;
         padding: 10px 10px 10px 10px;
-        margin-bottom: 10px;
 }
 
 article>div {
@@ -69,13 +71,22 @@ aside>div {
         background: #E3E3E3;
 }
 
+aside>div:last-child {
+        margin-top: 0px;
+        height: 100%;
+}
+
 footer {
+        display: flex;
+        clear: left;
+        margin-top: 10px;
         text-align: center;
-        width: 100%;
 }
 
 footer>div {
         color: white;
         background: black;
+        margin-top: 10px;
         padding: 30px 0px 30px 0px;
+        width: 100%;
 }
