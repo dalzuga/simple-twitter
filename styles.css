@@ -64,7 +64,7 @@ article>div, aside>div {
 }
 
 aside>div:last-child {
-        height: 100%;
+        flex: auto;
 }
 
 article>div {
