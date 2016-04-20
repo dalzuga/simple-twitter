@@ -52,6 +52,8 @@ article {
 }
 
 aside {
+        display: flex;
+        flex-direction: column;
         width: calc(30% - 5px);
         margin-left: 5px;
 }
@@ -59,6 +61,10 @@ aside {
 article>div, aside>div {
         padding: 10px 10px 10px 10px;
         margin-bottom: 10px;
+}
+
+aside>div:last-child {
+        height: 100%;
 }
 
 article>div {
