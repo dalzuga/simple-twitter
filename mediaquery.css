@@ -1,5 +1,18 @@
 @media screen and (max-width:768px) {
-.body {
-        width: 100%;
+  body {
+          width: 100%;
+    }
+
+  article {
+          width: 100%;
+  }
+
+  aside {
+          width: 100%;
+  }
+
+  .sticky {
+          position: relative;
+          width: 100%;
   }
 }
