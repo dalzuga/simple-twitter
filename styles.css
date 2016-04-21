@@ -6,6 +6,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         width: 992px;
+        /*width: 100%;*/
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: black;
         margin: auto;
@@ -75,6 +76,14 @@ article>div {
 
 aside>div {
         background: #E3E3E3;
+}
+
+.sticky {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(yellow, orange);
+        padding: 5px 10px 5px 10px;
 }
 
 footer {
