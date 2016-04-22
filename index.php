@@ -1,3 +1,11 @@
+<?php
+  if (isset($_POST['login'])) {
+    $msg1 =  "Your rot13 login is: " . str_rot13($_POST['login']);
+    $msg2 = "Your login length is: " . strlen($_POST['login']);
+    $user = $_POST['login'];
+  }
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -11,8 +19,18 @@
 
   <body>
     <header class="profile">
-      <div data-name="welcome-text">Hello, there!</div>
-      <div data-name="profile">Log in</div>
+      <div data-name="welcome-text">
+        Hello,
+        <?php
+          if (isset($user)) {
+            echo $user;
+          }
+          else {
+            echo there;
+          }
+        ?>!
+      </div>
+      <div data-name="profile"><a href="loginform.php">Log in</a></div>
       <div data-name="profile">Edit Profile</div>
     </header>
     <nav>
@@ -22,13 +40,6 @@
       <div class="item">About</div>
       <div class="item">Contact</div>
     </nav>
-
-    <?php
-      if (isset($_POST['login'])) {
-        $msg1 =  "Your rot13 login is: " . str_rot13($_POST['login']);
-        $msg2 = "Your login length is: " . strlen($_POST['login']);
-      }
-    ?>
 
     <header>
       <div data-name="loginrot13">
