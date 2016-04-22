@@ -30,6 +30,9 @@
         <input type="password" name="password" placeholder="password">
         <button type="submit" name="submit">Login</button>
       </form>
+      <form action="index.php">
+        <button>Continue as guest</button>
+      </form>
     </header>
 
   </body>
