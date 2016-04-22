@@ -22,11 +22,23 @@
       <div class="item">About</div>
       <div class="item">Contact</div>
     </nav>
+
+    <?php
+      if (isset($_POST['login'])) {
+        $msg1 =  "Your rot13 login is: " . str_rot13($_POST['login']);
+        $msg2 = "Your login length is: " . strlen($_POST['login']);
+      }
+    ?>
+
     <header>
-      <div data-name="loginrot13">Your rot13 login is:</div>
+      <div data-name="loginrot13">
+        <?php echo  $msg1; ?>
+      </div>
     </header>
     <header>
-      <div data-name="loginlength">The length of your login is:</div>
+      <div data-name="loginlength">
+        <?php echo $msg2; ?>
+      </div>
     </header>
 
     <article>

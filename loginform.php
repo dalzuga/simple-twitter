@@ -26,8 +26,8 @@
     <header>
       <h4>Enter Username and Password</h4>
       <form class="form-login" action="index.php" method="post">
-        <input type="text" name="login" placeholder="username" required autofocus>
-        <input type="password" name="password" placeholder="password" required>
+        <input type="text" name="login" placeholder="username" autofocus>
+        <input type="password" name="password" placeholder="password">
         <button type="submit" name="submit">Login</button>
       </form>
     </header>
