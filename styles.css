@@ -63,7 +63,7 @@ div[data-name="profile"]:last-child {
         border-right: none;
 }
 
-div[data-name="profile"]:hover {
+div[data-name="profile"]>a:hover {
         background: #2D6B86;
         color: white;
 }
