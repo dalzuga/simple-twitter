@@ -11,6 +11,7 @@
 
   <body>
     <header class="profile">
+      <div data-name="welcome-text">Hello, there!</div>
       <div data-name="profile">Log in</div>
       <div data-name="profile">Edit Profile</div>
     </header>
