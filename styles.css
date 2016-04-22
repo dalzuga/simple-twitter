@@ -31,6 +31,25 @@ header>div {
         padding: 10px 0px 10px 0px;
 }
 
+.profile {
+        background: aliceblue;
+        padding: 0 0 0 0;
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+        border: 10px solid aliceblue;
+}
+
+div[data-name="profile"] {
+        padding: 0 10px 0 10px;
+        border-right: 2px solid black;
+}
+
+div[data-name="profile"]:last-child {
+        border-right: none;
+        padding-right: 0;
+}
+
 div[data-name="loginrot13"] {
         background-color: #3877C0;
         color: white;
