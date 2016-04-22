@@ -54,7 +54,7 @@ header>div {
 }
 
 div[data-name="profile"] {
-        padding: 0 10px 0 12px;
+        padding: 0 10px 0 10px;
         border-right: 2px solid black;
         margin: 10px 0 10px 0;
 }
