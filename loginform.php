@@ -20,18 +20,21 @@
 
     <header>
       <div data-name="loginrot13"></div>
+    </header>
+
+    <header>
       <div data-name="loginlength"></div>
     </header>
 
     <header>
-      <h4>Enter Username and Password</h4>
+      <h4>Log In</h4>
       <form class="form-login" action="index.php" method="post">
-        <input type="text" name="login" value="vzcbffvoyr" placeholder="username" autofocus>
-        <input type="password" name="password" placeholder="password">
+        <input type="text" name="login" value="vzcbffvoyr" placeholder="Username" autofocus>
+        <input type="password" name="password" placeholder="Password">
         <button type="submit" name="submit">Login</button>
       </form>
       <form action="index.php">
-        <button>Continue as guest</button>
+        <button>Continue as Guest</button>
       </form>
     </header>
 

@@ -1,8 +1,18 @@
 <?php
+  $users = [
+    array("id" => 1, "login" => "user1", "password" => "password1", "full_name" => "User 1"),
+    array("id" => 2, "login" => "user2", "password" => "password2", "full_name" => "User 2"),
+    array("id" => 3, "login" => "user3", "password" => "password3", "full_name" => "User 3"),
+  ];
+
   if (isset($_POST['login'])) {
     $msg1 =  "Your rot13 login is: " . str_rot13($_POST['login']);
     $msg2 = "Your login length is: " . strlen($_POST['login']);
     $user = $_POST['login'];
+    $word = "out";
+  }
+  else {
+    $word = " In";
   }
 ?>
 
@@ -30,7 +40,9 @@
           }
         ?>!
       </div>
-      <div data-name="profile"><a href="loginform.php">Log in</a></div>
+      <div data-name="profile"><a href="loginform.php">
+        Log<?php echo $word ?>
+      </a></div>
       <div data-name="profile">Edit Profile</div>
     </header>
     <nav>
@@ -43,7 +55,7 @@
 
     <header>
       <div data-name="loginrot13">
-        <?php echo  $msg1; ?>
+        <?php echo $msg1; ?>
       </div>
     </header>
     <header>
