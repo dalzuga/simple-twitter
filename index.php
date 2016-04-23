@@ -1,14 +1,25 @@
 <?php
   $users = [
-    array("id" => 1, "login" => "user1", "password" => "password1", "full_name" => "User 1"),
-    array("id" => 2, "login" => "user2", "password" => "password2", "full_name" => "User 2"),
-    array("id" => 3, "login" => "user3", "password" => "password3", "full_name" => "User 3"),
+    array("id" => 1, "login" => "valerie", "password" => "password1", "full_name" => "User 1"),
+    array("id" => 2, "login" => "daniel", "password" => "password2", "full_name" => "User 2"),
+    array("id" => 3, "login" => "vzcbffvoyr", "password" => "password3", "full_name" => "User 3"),
   ];
+
+  function userExists($login, $password, $users) {
+    foreach ($users as &$elem) {
+      if ($elem[login]==$login && $elem[password]==$password) {
+          return true;
+        }
+      }
+    return false;
+  }
 
   if (isset($_POST['login'])) {
     $msg1 =  "Your rot13 login is: " . str_rot13($_POST['login']);
     $msg2 = "Your login length is: " . strlen($_POST['login']);
-    $user = $_POST['login'];
+    if ($_POST['login']!="") {
+      $user = $_POST['login'];
+    }
     $word = "out";
   }
   else {
@@ -28,6 +39,15 @@
   </head>
 
   <body>
+    <header class="credentials">
+      <?php
+      if (userExists($_POST['login'], $_POST['password'], $users)) {
+      }
+      elseif (!isset($_POST['guest'])) {
+        echo "Invalid Credentials";
+      }
+      ?>
+    </header>
     <header class="profile">
       <div data-name="welcome-text">
         Hello,

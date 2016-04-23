@@ -29,12 +29,15 @@
     <header>
       <h4>Log In</h4>
       <form class="form-login" action="index.php" method="post">
-        <input type="text" name="login" value="vzcbffvoyr" placeholder="Username" autofocus>
+        <input type="text" name="login" placeholder="Username" autofocus>
         <input type="password" name="password" placeholder="Password">
-        <button type="submit" name="submit">Login</button>
+        <div>
+          <button type="submit" name="submit">Login</button>
+          <button type="reset">Reset</button>
+        </div>
       </form>
-      <form action="index.php">
-        <button>Continue as Guest</button>
+      <form class="form-guest" action="index.php" method="post">
+        <button name="guest">Continue as Guest</button>
       </form>
     </header>
 
