@@ -1,13 +1,14 @@
 <?php
   $users = [
-    array("id" => 1, "login" => "valerie", "password" => "password1", "full_name" => "User 1"),
-    array("id" => 2, "login" => "daniel", "password" => "password2", "full_name" => "User 2"),
+    array("id" => 1, "login" => "valerie", "password" => "password1", "full_name" => "Valerie"),
+    array("id" => 2, "login" => "daniel", "password" => "password2", "full_name" => "Daniel"),
     array("id" => 3, "login" => "vzcbffvoyr", "password" => "password3", "full_name" => "User 3"),
   ];
 
   function userExists($login, $password, $users) {
     foreach ($users as &$elem) {
       if ($elem[login]==$login && $elem[password]==$password) {
+          $GLOBALS['userfull'] = $elem[full_name];
           return true;
         }
       }
@@ -36,6 +37,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <link href="mediaquery.css" rel="stylesheet">
+    <script src="post_a_status.js"></script>
   </head>
 
   <body>
@@ -52,8 +54,8 @@
       <div data-name="welcome-text">
         Hello,
         <?php
-          if (isset($user)) {
-            echo $user;
+          if (isset($userfull)) {
+            echo $userfull;
           }
           else {
             echo there;
@@ -84,8 +86,18 @@
       </div>
     </header>
 
-    <article>
+    <header>
+      <a href="#" id="1">Post a status</a>
+      <div data-name="makepost" id="2">
+        <form class="postform" method="post">
+          <textarea name="posttext" cols="30" rows="10" placeholder="Enter text here..."></textarea>
+          <button type="reset" name="button">Post</button>
+          <input type="checkbox" name="name"><label>Include Location</label>
+        </form>
+      </div>
+    </header>
 
+    <article>
       <!-- (div.post>h2>{User Post}^lorem*2)*4 -->
       <div class="post">
         <h2>User Post</h2>
@@ -107,8 +119,8 @@
         <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, dolorum id fuga eaque veniam, ipsa molestiae quos error delectus modi, iusto fugit. Dignissimos iste, ducimus rem? Voluptatem, facere eius quos.</div>
         <div>Maiores itaque modi accusamus magni, aspernatur laudantium in, maxime vero ex inventore, quos. Debitis amet, quam fugiat. Labore voluptates repudiandae mollitia sed! Fugit numquam vero corporis nemo facilis esse deserunt.</div>
       </div>
-
     </article>
+
     <aside>
       <!-- (div.user>h2>{About User}^lorem)*3 -->
       <div class="user">

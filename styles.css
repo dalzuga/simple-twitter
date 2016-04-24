@@ -3,6 +3,12 @@ a {
         color: black;
 }
 
+label {
+        color: white;
+        font-family: serif;
+        margin-left: .25em;
+}
+
 h1, h2, h3, h4, h5, h6, p, blockquote, pre {
         margin: 0 0 .25em 0;
 }
@@ -70,7 +76,8 @@ div[data-name="profile"]:last-child {
         border-right: none;
 }
 
-div[data-name="profile"]>a:hover {
+/*div[data-name="profile"]>a:hover {*/
+a:hover {
         background: #2D6B86;
         color: white;
 }
@@ -88,6 +95,28 @@ div[data-name="loginrot13"] {
 div[data-name="loginlength"] {
         background-color: #B8E986;
         color: #104079;
+}
+
+div[data-name="makepost"] {
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+}
+
+.postform {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #003462;
+}
+
+.postform>button {
+        align-self: flex-end;
+        margin-bottom: 10px;
+}
+
+.postform>textarea {
+        margin: 10px 5px 10px 10px;
 }
 
 article, aside {
