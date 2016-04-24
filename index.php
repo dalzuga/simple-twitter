@@ -89,36 +89,39 @@
       <!-- (div.post>h2>{User Post}^lorem*2)*4 -->
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam corporis enim aliquam facere possimus in deserunt voluptatum, iste, iusto recusandae molestiae magni fugiat voluptatibus expedita omnis rerum? Facilis, amet, dolore.</div>
-        <div>Omnis commodi similique blanditiis temporibus, quis laudantium repellendus pariatur! Nesciunt facere, doloribus placeat recusandae quia laborum, obcaecati inventore ut quos reiciendis minus nam sit asperiores quam architecto dolorem eligendi illum.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas pariatur fugit ea dolorem dolore neque iure, eaque tempore. Quod laborum aut qui labore natus perspiciatis, ut expedita vero error dolores.</div>
+        <div>Aut quo, reprehenderit, officia earum tempore non illo, soluta error ipsa aliquid hic vitae impedit natus repellendus! Iste alias, eum, neque earum voluptatum repellendus, aperiam at nemo eius optio voluptate.</div>
       </div>
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima delectus quasi iusto in, dicta fuga odit, eaque voluptas nemo, est ipsam! Itaque in pariatur aut cum dolorum delectus ex magnam.</div>
-        <div>Excepturi at quasi autem error eos qui quaerat in sequi, laborum facere consequatur iusto vel nam earum nobis voluptate repellendus dolorem? Corrupti itaque commodi suscipit, magni hic, eveniet illum fugiat.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nihil, reiciendis, nobis recusandae ut totam. Facere sint quo cumque laborum molestias voluptatibus alias obcaecati reiciendis excepturi inventore esse accusamus, soluta.</div>
+        <div>Necessitatibus nulla placeat, molestias, expedita, voluptatem eligendi et sapiente earum quis aliquam soluta ipsum dolores explicabo rerum deserunt atque maxime. Labore officiis natus nihil quisquam perferendis ullam vero exercitationem est.</div>
       </div>
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam veritatis cum enim ut numquam ipsum in cupiditate at fugiat. Ad blanditiis dolor, iusto animi libero sint! Error labore blanditiis quo.</div>
-        <div>Accusamus itaque vitae ratione, nemo perferendis distinctio alias natus tempora nisi exercitationem. Quod, fugit, voluptates nihil magnam reiciendis enim! Ad velit eligendi vel, perspiciatis rem perferendis quidem eos itaque optio!</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque debitis voluptas, omnis facere hic facilis vero ipsam unde odio iure at explicabo delectus error distinctio suscipit, autem sint dolores laborum!</div>
+        <div>Consequatur culpa doloremque maxime perferendis doloribus explicabo asperiores eum commodi, natus praesentium possimus magnam aut iste labore exercitationem obcaecati, reiciendis ad blanditiis reprehenderit, esse et vero omnis iure accusamus illum.</div>
       </div>
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia omnis quidem animi dolore magnam alias aspernatur aut, sed, accusamus nostrum, porro optio amet rem. Repellat excepturi placeat eligendi corporis.</div>
-        <div>Quis sapiente eaque voluptates nulla ratione facere officiis, ad, eligendi vel quae consequatur quia dolorum, voluptate odit laudantium blanditiis voluptatibus esse necessitatibus alias modi. Commodi, magnam, temporibus. Dolorem, porro, voluptatem.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, dolorum id fuga eaque veniam, ipsa molestiae quos error delectus modi, iusto fugit. Dignissimos iste, ducimus rem? Voluptatem, facere eius quos.</div>
+        <div>Maiores itaque modi accusamus magni, aspernatur laudantium in, maxime vero ex inventore, quos. Debitis amet, quam fugiat. Labore voluptates repudiandae mollitia sed! Fugit numquam vero corporis nemo facilis esse deserunt.</div>
       </div>
 
     </article>
     <aside>
       <!-- (div.user>h2>{About User}^lorem)*3 -->
       <div class="user">
-        <h2>About User</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni totam laudantium numquam accusantium delectus reprehenderit nesciunt at ab id! Repudiandae quisquam vel molestiae in, architecto error enim vero cum.
+        <h2>About User</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa modi asperiores libero ea harum, eligendi explicabo magnam earum placeat debitis dolorem aliquid adipisci ipsum architecto in iusto sequi accusamus molestias.</div>
       </div>
       <div class="user">
-        <h2>About User</h2>Officia, culpa vitae. Magnam reiciendis dolorem doloribus ab necessitatibus. Labore assumenda excepturi aliquid. Architecto itaque, rem odio, debitis dolorem sit minima nihil veritatis ratione, ipsa officia porro natus quibusdam alias.
+        <h2>About User</h2>
+        <div>Quo asperiores, officia ut nobis tempore inventore dolor veniam nisi. Temporibus, iusto obcaecati voluptatibus ducimus voluptatem rerum quos, quam ab dolores, consectetur culpa. Odit quasi doloremque facere minima sed at.</div>
       </div>
       <div class="user">
-        <h2>About User</h2>Voluptatum rerum maxime aut laudantium deleniti quo necessitatibus, ullam ea obcaecati ipsam, ipsum doloribus hic, voluptatem! Ab necessitatibus voluptates nesciunt reprehenderit ex, totam, ullam quidem itaque, cum architecto nihil nulla.
+        <h2>About User</h2>
+        <div>Optio ipsa praesentium, beatae quaerat inventore, maxime tempore id perferendis porro recusandae neque officia magni blanditiis non quas veritatis! Dignissimos, eius amet numquam ea neque ullam incidunt nisi dolor assumenda.</div>
       </div>
     </aside>
 

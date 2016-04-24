@@ -113,6 +113,10 @@ article>div, aside>div {
         margin-bottom: 10px;
 }
 
+.post>div, .user>div {
+        font-family: serif;
+}
+
 aside>div:last-child, article>div:last-child {
         flex-grow: 1;
 }
