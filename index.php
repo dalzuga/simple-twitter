@@ -123,7 +123,7 @@
     </article>
 
     <aside>
-      <!-- (div.user>h2>{About User}^lorem)*3 -->
+      <!-- (div.user>h2>{About User}^div>lorem)*3 -->
       <div class="user">
         <h2>About User</h2>
         <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa modi asperiores libero ea harum, eligendi explicabo magnam earum placeat debitis dolorem aliquid adipisci ipsum architecto in iusto sequi accusamus molestias.</div>
