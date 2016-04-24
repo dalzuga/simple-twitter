@@ -88,14 +88,15 @@
 
     <header>
       <a href="#" id="1">Post a status</a>
-      <div data-name="makepost" id="2">
-        <form class="postform" method="post">
-          <textarea name="posttext" cols="30" rows="10" placeholder="Enter text here..."></textarea>
-          <button type="reset" name="button">Post</button>
-          <input type="checkbox" name="name"><label>Include Location</label>
-        </form>
-      </div>
     </header>
+
+    <div data-name="makepost" id="2">
+      <form class="postform" method="post">
+        <textarea name="posttext" cols="100" rows="10" placeholder="Enter text here..."></textarea>
+        <button type="reset" name="button">Post</button>
+        <input type="checkbox" name="name"><label>Include Location</label>
+      </form>
+    </div>
 
     <article>
       <!-- (div.post>h2>{User Post}^lorem*2)*4 -->
