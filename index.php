@@ -92,7 +92,7 @@
 
     <div data-name="makepost" id="2">
       <form class="postform" method="post">
-        <textarea name="posttext" cols="100" rows="10" placeholder="Enter text here..."></textarea>
+        <textarea name="posttext" cols="30" rows="10" placeholder="Enter text here..."></textarea>
         <button type="reset" name="button">Post</button>
         <input type="checkbox" name="name"><label>Include Location</label>
       </form>
