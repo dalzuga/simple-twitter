@@ -99,27 +99,31 @@
     </div>
 
     <article>
-      <!-- (div.post>h2>{User Post}^lorem*2)*4 -->
+      <!-- (div.post>h2>{User Post}^lorem*2^a[#][id=$@3]{Reply})*4 -->
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas pariatur fugit ea dolorem dolore neque iure, eaque tempore. Quod laborum aut qui labore natus perspiciatis, ut expedita vero error dolores.</div>
-        <div>Aut quo, reprehenderit, officia earum tempore non illo, soluta error ipsa aliquid hic vitae impedit natus repellendus! Iste alias, eum, neque earum voluptatum repellendus, aperiam at nemo eius optio voluptate.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ullam quasi suscipit, numquam earum eveniet, magnam cupiditate nesciunt rem natus optio veritatis culpa reiciendis dolor voluptatibus aspernatur amet neque deleniti.</div>
+        <div>Natus cumque consequuntur quae ad eum aliquid iste nisi, dicta dolore veritatis nostrum vitae, incidunt adipisci. Quia, quisquam accusamus error quibusdam. Amet odit, hic in facere ex asperiores incidunt, nisi?</div>
       </div>
+      <a href="#" id="3">Reply</a>
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nihil, reiciendis, nobis recusandae ut totam. Facere sint quo cumque laborum molestias voluptatibus alias obcaecati reiciendis excepturi inventore esse accusamus, soluta.</div>
-        <div>Necessitatibus nulla placeat, molestias, expedita, voluptatem eligendi et sapiente earum quis aliquam soluta ipsum dolores explicabo rerum deserunt atque maxime. Labore officiis natus nihil quisquam perferendis ullam vero exercitationem est.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita numquam quo excepturi vero fugit totam aspernatur maxime blanditiis quisquam eum deserunt quos dignissimos necessitatibus quam vel, eaque distinctio ipsum officiis!</div>
+        <div>Error culpa nobis architecto qui dicta eum cumque id reiciendis sit, numquam quod necessitatibus laudantium obcaecati neque. Itaque sunt officia, aliquid inventore, ab, a dolore, velit sit rerum ipsam molestiae!</div>
       </div>
+      <a href="#" id="4">Reply</a>
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque debitis voluptas, omnis facere hic facilis vero ipsam unde odio iure at explicabo delectus error distinctio suscipit, autem sint dolores laborum!</div>
-        <div>Consequatur culpa doloremque maxime perferendis doloribus explicabo asperiores eum commodi, natus praesentium possimus magnam aut iste labore exercitationem obcaecati, reiciendis ad blanditiis reprehenderit, esse et vero omnis iure accusamus illum.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate facilis libero sequi enim vero sint eum quibusdam, cumque iste voluptas voluptate aut beatae molestiae. Vitae, autem nostrum exercitationem impedit!</div>
+        <div>Unde ipsa fugiat quo sint qui molestiae incidunt vel similique dolor, optio reprehenderit, totam quod aliquam atque deserunt non, eligendi tenetur tempora! Autem saepe cum aperiam voluptatum veniam nisi, tempore!</div>
       </div>
+      <a href="#" id="5">Reply</a>
       <div class="post">
         <h2>User Post</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, dolorum id fuga eaque veniam, ipsa molestiae quos error delectus modi, iusto fugit. Dignissimos iste, ducimus rem? Voluptatem, facere eius quos.</div>
-        <div>Maiores itaque modi accusamus magni, aspernatur laudantium in, maxime vero ex inventore, quos. Debitis amet, quam fugiat. Labore voluptates repudiandae mollitia sed! Fugit numquam vero corporis nemo facilis esse deserunt.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veritatis ipsam natus iure quod velit earum recusandae, error quia autem neque fugiat. Fugit sint repudiandae dolor, porro voluptatum, a assumenda!</div>
+        <div>Doloribus nihil qui fuga quisquam ab nam itaque repellat, possimus commodi autem voluptatibus eos expedita quas? Doloribus modi reprehenderit ex odio, possimus nulla pariatur officiis commodi delectus, officia quo. Error?</div>
       </div>
+      <a href="#" id="6">Reply</a>
     </article>
 
     <aside>
